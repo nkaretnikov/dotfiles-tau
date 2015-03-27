@@ -99,6 +99,7 @@
     synaptics.tapButtons = false;
     synaptics.twoFingerScroll = true;
     synaptics.vertEdgeScroll = false;
+    synaptics.accelFactor = "0.1";
   };
 
   fonts = {
