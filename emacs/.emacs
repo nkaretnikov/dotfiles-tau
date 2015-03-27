@@ -67,8 +67,11 @@
 (setq erc-autoaway-use-emacs-idle t)
 
 (setq erc-autojoin-channels-alist
-      '(("freenode.net" "#nixos" "#haskell" "#ghc" "#yesod"
-         "#coq" "#snowdrift" "#replicant" "#libreboot")))
+      '(("freenode.net"
+         "#nixos" "##nix-sbt"
+         "#haskell" "#haskell-lens" "#hackage" "#haskell-infrastructure" "#ghc" "#yesod"
+         "#coq" "#agda" "#idris"
+         "#snowdrift")))
 ;; XXX: Doesn't work.
 ;; (setq erc-log-channels-directory "~/.erc/logs/")
 ;; (setq erc-save-buffer-on-part t)
