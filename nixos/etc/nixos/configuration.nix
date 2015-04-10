@@ -73,6 +73,7 @@
   };
 
   services.printing.enable = true;
+  services.printing.drivers = [ pkgs.hplip ];
 
   services.privoxy.enable = true;
 
