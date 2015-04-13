@@ -166,6 +166,7 @@
     haskellPackages.ghc
     haskellPackages.happy
     haskellPackages.hasktags
+    haskellPackages.threadscope
     libreoffice
     lm_sensors
     maven
