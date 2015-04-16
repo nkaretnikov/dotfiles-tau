@@ -31,7 +31,7 @@
 
   networking = {
     hostName = "tau";
-    nameservers = [ "192.168.0.1" ];
+    nameservers = [ "192.168.0.1" "192.168.1.1" ];
     # Requires 'ssid' and 'psk' in '/etc/wpa_supplicant.conf'.
     wireless.enable = true;
   };
