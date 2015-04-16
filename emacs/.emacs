@@ -54,6 +54,10 @@
 (setq whitespace-line-column 79)
 (global-whitespace-mode t)
 
+;;; Gnus.
+;; Do not change buffer layout.
+(setq gnus-use-full-window nil)
+
 ;;; ERC.
 (require 'erc)
 (erc-spelling-mode 1)
