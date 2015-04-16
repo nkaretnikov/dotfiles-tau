@@ -63,6 +63,8 @@
 ;; Do not open a new buffer when someone sends you a PM.
 (setq erc-auto-query 'bury)
 
+(setq erc-join-buffer 'bury)
+
 (setq erc-autoaway-idle-seconds 600)
 (setq erc-autoaway-use-emacs-idle t)
 
