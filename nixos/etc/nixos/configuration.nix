@@ -103,6 +103,26 @@
     synaptics.accelFactor = "0.1";
   };
 
+  # Mix left and right channels.
+  sound.extraConfig =
+    ''
+    pcm.!default {
+        type plug
+        slave.pcm {
+            type asym
+            playback.pcm {
+                type route
+                slave.pcm "dmix:0"
+                ttable.0.0 0.66
+                ttable.0.1 0.33
+                ttable.1.0 0.33
+                ttable.1.1 0.66
+            }
+            capture.pcm "hw:0"
+        }
+    }
+    '';
+
   fonts = {
     enableFontDir = true;
     enableGhostscriptFonts = true;
