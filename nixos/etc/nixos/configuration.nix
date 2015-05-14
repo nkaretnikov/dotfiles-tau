@@ -147,11 +147,13 @@
   # $ nix-env -qaP | grep wget
   environment.systemPackages = with pkgs; [
     acpi
+    androidsdk_4_4
     ant
     aspell
     aspellDicts.en
     autoconf
     automake
+    chromium
     coq
     darcs
     dejavu_fonts
@@ -187,6 +189,7 @@
     haskellPackages.happy
     haskellPackages.hasktags
     haskellPackages.threadscope
+    heimdall
     libreoffice
     lm_sensors
     maven
