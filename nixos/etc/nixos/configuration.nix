@@ -214,6 +214,7 @@
     sbt
     scala
     stow            # manage dotfiles
+    traceroute
     unzip
     utillinuxCurses
     vlc
