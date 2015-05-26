@@ -29,6 +29,11 @@
   }
   ];
 
+  swapDevices = [ {
+    device = "/var/swap";
+    size = 4096;
+  } ];
+
   networking = {
     hostName = "tau";
     nameservers = [ "192.168.0.1" "192.168.1.1" ];
