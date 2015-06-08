@@ -143,8 +143,13 @@
   };
 
   nixpkgs.config = {
+    allowUnfree = true;			# for calibre
     firefox = {
       enableGnash = true;
+    };
+    chromium = {
+      enablePepperFlash = true; # Chromium's non-NSAPI alternative to Adobe Flash
+      enablePepperPDF = true;
     };
   };
 
@@ -158,6 +163,7 @@
     aspellDicts.en
     autoconf
     automake
+    calibre
     chromium
     coq
     darcs
