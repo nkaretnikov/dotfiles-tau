@@ -137,6 +137,9 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(haskell-mode-hook
+   (quote
+	(capitalized-words-mode turn-on-eldoc-mode turn-on-haskell-decl-scan turn-on-haskell-doc turn-on-haskell-indentation turn-on-haskell-doc-mode)))
  '(safe-local-variable-values
    (quote
 	((haskell-indentation-where-post-offset . 2)
