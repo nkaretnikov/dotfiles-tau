@@ -78,6 +78,16 @@
          "#haskell" "#haskell-lens" "#hackage" "#haskell-infrastructure" "#ghc" "#yesod"
          "#coq" "#agda" "#idris"
          "#snowdrift")))
+
+;; Remember password.
+(defun irc ()
+  (interactive)
+  (load "~/.ercpass")
+  (setq erc-nick '("nkaretnikov" "nkaretnikov_"))
+  (erc-tls :server "irc.freenode.net"
+		   :port 6697
+		   :password freenode-pass))
+
 ;; XXX: Doesn't work.
 ;; (setq erc-log-channels-directory "~/.erc/logs/")
 ;; (setq erc-save-buffer-on-part t)
