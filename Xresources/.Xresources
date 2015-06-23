@@ -9,3 +9,8 @@ XTerm*faceName: DejaVu Sans Mono
 XTerm*faceSize: 14
 XTerm*background: black
 XTerm*foreground: #666666
+
+URxvt*font: xft:DejaVu Sans Mono:pixelsize=20:antialias=true:hinting=true
+URxvt*scrollBar: false
+URxvt*background: black
+URxvt*foreground: #666666
