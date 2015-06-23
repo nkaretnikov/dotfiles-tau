@@ -85,8 +85,8 @@
   (load "~/.ercpass")
   (setq erc-nick '("nkaretnikov" "nkaretnikov_"))
   (erc-tls :server "irc.freenode.net"
-		   :port 6697
-		   :password freenode-pass))
+           :port 6697
+           :password freenode-pass))
 
 ;; XXX: Doesn't work.
 ;; (setq erc-log-channels-directory "~/.erc/logs/")
