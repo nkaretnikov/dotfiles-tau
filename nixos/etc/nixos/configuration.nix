@@ -87,6 +87,9 @@
 
   # services.thinkfan.enable = true;
 
+  services.virtualboxHost.enable = true;
+  users.extraGroups.vboxusers.members = [ "nikita" ];
+
   services.xserver = {
     # Enable the X11 windowing system.
     enable = true;
@@ -212,6 +215,7 @@
     nodejs
     nox
     openjdk
+    p7zip
     parted
     pkgconfig
     pmutils
@@ -223,7 +227,9 @@
     traceroute
     unzip
     utillinuxCurses
+    vim
     vlc
+    weechat
     wget
     wgetpaste
     wireshark
