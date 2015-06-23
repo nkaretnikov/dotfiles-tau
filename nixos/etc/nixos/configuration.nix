@@ -221,6 +221,7 @@
     pmutils
     python
     pythonPackages.pip
+    rxvt_unicode
     sbt
     scala
     stow            # manage dotfiles
@@ -229,6 +230,7 @@
     utillinuxCurses
     vim
     vlc
+    w3m
     weechat
     wget
     wgetpaste
