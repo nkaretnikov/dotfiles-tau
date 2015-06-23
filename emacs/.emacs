@@ -75,7 +75,8 @@
 (setq erc-autojoin-channels-alist
       '(("freenode.net"
          "#nixos" "##nix-sbt"
-         "#haskell" "#haskell-lens" "#hackage" "#haskell-infrastructure" "#ghc" "#yesod"
+         "#haskell" "#haskell-lens" "#hackage" "#haskell-infrastructure"
+         "#numerical-haskell" "#ghc" "#yesod"
          "#coq" "#agda" "#idris"
          "#snowdrift")))
 
