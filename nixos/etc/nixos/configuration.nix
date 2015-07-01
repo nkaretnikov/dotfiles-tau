@@ -185,6 +185,7 @@
     emacs24Packages.proofgeneral_4_3_pre
     emacs24Packages.scalaMode2
     emacs24Packages.structuredHaskellMode
+    emacs24PackagesNg.auctex
     evince
     file
     firefoxWrapper
@@ -198,7 +199,7 @@
     gnutls
     haskellPackages.alex
     haskellPackages.cabal2nix
-    haskellPackages.cabalInstall
+    haskellPackages.cabal-install
     haskellPackages.ghc
     haskellPackages.happy
     haskellPackages.hasktags
@@ -226,6 +227,7 @@
     scala
     stow            # manage dotfiles
     traceroute
+    tetex
     unzip
     utillinuxCurses
     vim

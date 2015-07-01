@@ -143,6 +143,11 @@
 ;;; Enable 'erase-buffer'.
 (put 'erase-buffer 'disabled nil)
 
+;;; Auctex.
+(add-to-list 'load-path (concat nix-site-lisp "elpa/auctex-11.87.7/"))
+(load "auctex.el" nil t t)
+(load "preview.el" nil t t)
+
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
