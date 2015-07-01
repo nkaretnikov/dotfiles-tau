@@ -148,6 +148,8 @@
 (load "auctex.el" nil t t)
 (load "preview.el" nil t t)
 (TeX-modes-set 'TeX-modes nil)
+(global-set-key (kbd "C-c C-d C-p") 'preview-document)
+(global-set-key (kbd "C-c C-d C-c") 'preview-clearout-buffer)
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
