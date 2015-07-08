@@ -166,6 +166,7 @@
     aspellDicts.en
     autoconf
     automake
+    cacert
     calibre
     chromium
     coq
@@ -189,6 +190,7 @@
     evince
     file
     firefoxWrapper
+    fsharp
     gcc
     ghostscript
     gimp
@@ -205,9 +207,12 @@
     haskellPackages.hasktags
     haskellPackages.threadscope
     heimdall
+    inetutils
     libreoffice
     lm_sensors
     maven
+    mono
+    monodevelop
     mpc_cli
     mpd
     mplayer
@@ -226,8 +231,10 @@
     sbt
     scala
     stow            # manage dotfiles
+    subversion
     traceroute
     tetex
+    texLive
     unzip
     utillinuxCurses
     vim
