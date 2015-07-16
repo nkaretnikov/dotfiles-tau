@@ -169,6 +169,7 @@
     cacert
     calibre
     chromium
+    clang_35
     coq
     darcs
     dejavu_fonts
@@ -187,6 +188,8 @@
     emacs24Packages.scalaMode2
     emacs24Packages.structuredHaskellMode
     emacs24PackagesNg.auctex
+    emacs24PackagesNg.markdown-mode
+    emacs24PackagesNg.evil
     evince
     file
     firefoxWrapper
@@ -209,8 +212,10 @@
     heimdall
     inetutils
     libreoffice
+    llvm_35
     lm_sensors
     maven
+    mdp
     mono
     monodevelop
     mpc_cli
@@ -222,16 +227,19 @@
     nox
     openjdk
     p7zip
+    ragel
     parted
     pkgconfig
     pmutils
     python
     pythonPackages.pip
+    recode
     rxvt_unicode
     sbt
     scala
     stow            # manage dotfiles
     subversion
+    time
     traceroute
     tetex
     texLive
