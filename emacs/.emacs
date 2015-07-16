@@ -43,6 +43,9 @@
 ;;; align-regexp, mainly for Haskell.
 (global-set-key (kbd "C-x a r") 'align-regexp)
 
+;;; Move between buffers backwards.
+(global-set-key (kbd "C-x O") (lambda () (interactive) (other-window -1)))
+
 (defun kill-other-buffers ()
   "Kill all other buffers."
   (interactive)
@@ -150,6 +153,14 @@
 (TeX-modes-set 'TeX-modes nil)
 (global-set-key (kbd "C-c C-d C-p") 'preview-document)
 (global-set-key (kbd "C-c C-d C-c") 'preview-clearout-buffer)
+
+;;; Markdown.
+(add-to-list 'load-path (concat nix-site-lisp "elpa/markdown-mode-2.0/"))
+(require 'markdown-mode)
+
+;;; Evil.
+(add-to-list 'load-path (concat nix-site-lisp "elpa/evil-20141020"))
+(require 'evil)
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
