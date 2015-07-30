@@ -3,3 +3,8 @@ set nocompatible
 set ruler
 set showcmd
 set confirm
+
+" Solarized.
+syntax enable
+set background=light
+colorscheme solarized
