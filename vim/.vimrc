@@ -3,6 +3,7 @@ set nocompatible
 set ruler
 set showcmd
 set confirm
+set number
 
 " Indentation.
 " https://wiki.haskell.org/Vim
@@ -16,6 +17,12 @@ set shiftround     " round indent to nearest shiftwidth multiple
 syntax enable
 set background=light
 colorscheme solarized
+
+" Highlight extra whitespace.
+" http://vim.wikia.com/wiki/Highlight_unwanted_spaces
+highlight ExtraWhitespace ctermbg=lightred guibg=lightred
+" Show trailing whitespace and spaces before a tab:
+match ExtraWhitespace /\s\+$\| \+\ze\t/
 
 " Spell checking.
 setlocal spell spelllang=en
