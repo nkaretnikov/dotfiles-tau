@@ -25,4 +25,13 @@ highlight ExtraWhitespace ctermbg=lightred guibg=lightred
 match ExtraWhitespace /\s\+$\| \+\ze\t/
 
 " Spell checking.
-setlocal spell spelllang=en
+setlocal spell spelllang=en_us
+
+" Pathogen.
+execute pathogen#infect()
+syntax on
+filetype plugin indent on
+
+" Commentary.
+" Recognize .nix files.
+autocmd FileType nix setlocal commentstring=#\ %s
