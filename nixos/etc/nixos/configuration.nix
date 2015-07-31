@@ -216,6 +216,7 @@
     lm_sensors
     maven
     mdp
+    mercurial
     mono
     monodevelop
     mpc_cli
@@ -243,6 +244,7 @@
     traceroute
     tetex
     texLive
+    tmux
     unzip
     utillinuxCurses
     vim
