@@ -35,3 +35,8 @@ filetype plugin indent on
 " Commentary.
 " Recognize .nix files.
 autocmd FileType nix setlocal commentstring=#\ %s
+
+" Make shortcuts work in Cyrillic.
+set keymap=russian-jcuken
+set iminsert=0
+set imsearch=0
