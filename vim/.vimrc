@@ -40,3 +40,7 @@ autocmd FileType nix setlocal commentstring=#\ %s
 set keymap=russian-jcuken
 set iminsert=0
 set imsearch=0
+
+" Wrap long lines.
+set wrap
+set textwidth=80
