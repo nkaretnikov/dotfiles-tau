@@ -12,6 +12,7 @@ set expandtab      " always use spaces instead of tabs
 set softtabstop=2  " insert 2 spaces when tab is pressed
 set shiftwidth=2   " an ident is 2 spaces
 set shiftround     " round indent to nearest shiftwidth multiple
+set autoindent     " copy the indentation from the previous line
 
 " Solarized.
 syntax enable
