@@ -1,0 +1,5 @@
+# Use vi-like key bindings in bash and other programs.
+set editing-mode vi
+
+# Show the current mode.
+set show-mode-in-prompt on

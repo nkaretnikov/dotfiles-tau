@@ -136,12 +136,17 @@
     enableGhostscriptFonts = true;
   };
 
+  # Use Zsh.
+  programs.zsh.enable = true;
+  users.defaultUserShell = "/run/current-system/sw/bin/zsh";
+
   # Define a user account. Don't forget to set a password with ‘passwd’.
   users.extraUsers.guest = {
     name = "nikita";
     isNormalUser = true;
     uid = 1000;
     home = "/home/nikita";
+    useDefaultShell = true;
     extraGroups = [ "wheel" ];
   };
 
