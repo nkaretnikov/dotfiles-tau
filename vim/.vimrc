@@ -14,6 +14,9 @@ set shiftwidth=2   " an ident is 2 spaces
 set shiftround     " round indent to nearest shiftwidth multiple
 set autoindent     " copy the indentation from the previous line
 
+" Delete over autoindent, line breaks, and the start of insert.
+set backspace=indent,eol,start
+
 " Solarized.
 syntax enable
 set background=light
