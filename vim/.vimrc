@@ -28,6 +28,11 @@ highlight ExtraWhitespace ctermbg=lightred guibg=lightred
 " Show trailing whitespace and spaces before a tab:
 match ExtraWhitespace /\s\+$\| \+\ze\t/
 
+" Highlight search.
+set hlsearch
+" And get rid of it by hitting the 'Esc' key.
+nnoremap <esc> :noh<return><esc>
+
 " Spell checking.
 setlocal spell spelllang=en_us
 
