@@ -247,6 +247,7 @@
     subversion
     time
     traceroute
+    tree
     tetex
     texLive
     tmux
