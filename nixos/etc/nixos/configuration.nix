@@ -14,7 +14,7 @@
   boot.loader.gummiboot.timeout = 5;
   boot.loader.efi.canTouchEfiVariables = true;
 
-  boot.kernelPackages = pkgs.linuxPackages_3_19;
+  boot.kernelPackages = pkgs.linuxPackages_3_18;
   boot.initrd.kernelModules = [ "fbcon" ];
   boot.initrd.luks.devices = [
     { name = "main"; device = "/dev/sda3"; preLVM = true; }
@@ -191,7 +191,7 @@
     emacs24Packages.org
     emacs24Packages.proofgeneral_4_3_pre
     emacs24Packages.scalaMode2
-    emacs24Packages.structuredHaskellMode
+    # emacs24Packages.structuredHaskellMode
     emacs24PackagesNg.auctex
     emacs24PackagesNg.markdown-mode
     emacs24PackagesNg.evil
@@ -222,6 +222,7 @@
     maven
     mdp
     mercurial
+    minisat
     mono
     monodevelop
     mpc_cli
@@ -264,6 +265,7 @@
     xlibs.xmessage  # xmonad help
     xsane
     youtube-dl
+    z3
     zip
   ];
 
