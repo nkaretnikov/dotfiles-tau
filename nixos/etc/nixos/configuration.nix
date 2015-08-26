@@ -244,6 +244,7 @@
     rxvt_unicode
     sbt
     scala
+    slock
     stow            # manage dotfiles
     subversion
     time
