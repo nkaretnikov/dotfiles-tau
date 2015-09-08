@@ -53,3 +53,11 @@ set imsearch=0
 " Wrap long lines.
 set wrap
 set textwidth=80
+
+" Leader.
+let mapleader = "\<Space>"
+
+" Coquille.
+nnoremap <Leader>n :CoqNext<return>
+nnoremap <Leader>c :CoqToCursor<return>
+nnoremap <Leader>u :CoqUndo<return>
