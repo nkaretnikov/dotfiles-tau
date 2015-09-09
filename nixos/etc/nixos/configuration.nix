@@ -263,6 +263,7 @@
     wget
     wgetpaste
     wireshark
+    xclip
     xfontsel
     xlibs.xmessage  # xmonad help
     xsane
