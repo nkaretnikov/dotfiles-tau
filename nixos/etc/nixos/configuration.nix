@@ -19,6 +19,7 @@
   boot.initrd.luks.devices = [
     { name = "main"; device = "/dev/sda3"; preLVM = true; }
   ];
+  boot.initrd.luks.mitigateDMAAttacks = true;
 
   fileSystems = [ {
     mountPoint = "/";
