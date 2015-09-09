@@ -141,6 +141,8 @@
   programs.zsh.enable = true;
   users.defaultUserShell = "/run/current-system/sw/bin/zsh";
 
+  programs.bash.enableCompletion = true;
+
   # Define a user account. Don't forget to set a password with ‘passwd’.
   users.extraUsers.guest = {
     name = "nikita";
