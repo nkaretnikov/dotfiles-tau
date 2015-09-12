@@ -19,7 +19,7 @@ set backspace=indent,eol,start
 
 " Solarized.
 syntax enable
-set background=light
+set background=dark
 colorscheme solarized
 
 " Highlight extra whitespace.

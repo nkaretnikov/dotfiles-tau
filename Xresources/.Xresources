@@ -16,4 +16,4 @@ URxvt*scrollBar: false
 ! URxvt*foreground: #666666
 
 ! Solarized.
-#include "solarized/xresources/Xresources.light"
+#include "solarized/xresources/Xresources.dark"
