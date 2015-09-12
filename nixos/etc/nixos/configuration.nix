@@ -179,6 +179,7 @@
     chromium
     clang_35
     coq
+    ctags
     darcs
     dejavu_fonts
     dmenu           # xmonad
