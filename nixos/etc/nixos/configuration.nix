@@ -54,6 +54,8 @@
     timeZone = "Europe/Moscow";
   };
 
+  security.setuidPrograms = [ "slock" ];
+
   # List services that you want to enable:
 
   # Enable the OpenSSH daemon.
