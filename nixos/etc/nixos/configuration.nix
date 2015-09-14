@@ -55,6 +55,15 @@
   };
 
   security.setuidPrograms = [ "slock" ];
+  systemd.services.sleeplock = {
+    description = "Lock the screen on resume from suspend";
+    serviceConfig = {
+      User = "nikita";
+      Environment = "DISPLAY=:0";
+      ExecStart = "/var/setuid-wrappers/slock";
+    };
+    wantedBy = [ "suspend.target" ];
+  };
 
   # List services that you want to enable:
 
