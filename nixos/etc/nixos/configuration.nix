@@ -115,6 +115,7 @@
 
     desktopManager.default = "none";
     desktopManager.xterm.enable = false;
+    displayManager.desktopManagerHandlesLidAndPower = false;
 
     synaptics.enable = true;
     synaptics.tapButtons = false;
