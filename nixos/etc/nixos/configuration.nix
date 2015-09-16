@@ -193,6 +193,7 @@
     ctags
     darcs
     dejavu_fonts
+    dvdplusrwtools
     dmenu           # xmonad
     emacs
     emacs24Packages.autoComplete
