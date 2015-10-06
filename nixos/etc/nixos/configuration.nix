@@ -232,6 +232,7 @@
     haskellPackages.hasktags
     haskellPackages.threadscope
     heimdall
+    htop
     inetutils
     libreoffice
     llvm_35
