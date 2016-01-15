@@ -188,6 +188,7 @@
     acpi
     androidsdk_4_4
     ant
+    arcanist
     aspell
     aspellDicts.en
     autoconf
@@ -199,6 +200,7 @@
     coq
     ctags
     darcs
+    debootstrap
     dejavu_fonts
     dvdplusrwtools
     dmenu           # xmonad
@@ -208,7 +210,7 @@
     emacs24Packages.colorThemeSolarized
     emacs24Packages.colorTheme
     emacs24Packages.emacsw3m
-    emacs24Packages.haskellModeGit
+    # emacs24Packages.haskellModeGit
     emacs24Packages.magit
     emacs24Packages.ocamlMode
     emacs24Packages.org
@@ -230,6 +232,7 @@
     gnumake
     gnupg
     gnutls
+    grub2
     haskellPackages.alex
     haskellPackages.cabal2nix
     haskellPackages.cabal-install
@@ -240,9 +243,12 @@
     heimdall
     htop
     inetutils
+    jhc
+    kvm
     libreoffice
     llvm_35
     lm_sensors
+    manpages
     maven
     mdp
     mercurial
@@ -252,11 +258,16 @@
     mpc_cli
     mpd
     mplayer
+    mtools
+    mutt
     ncurses
     nix-repl
     nodejs
     nox
+    OVMF
+    offlineimap
     openjdk
+    openssl
     p7zip
     ragel
     parted
@@ -264,31 +275,38 @@
     pmutils
     python
     pythonPackages.pip
+    qemu
     recode
     rxvt_unicode
     sbt
     scala
+    sloccount
     slock
     stow            # manage dotfiles
     subversion
+    tcpdump
     time
     traceroute
     tree
     tetex
     texLive
     tmux
+    unrar
     unzip
     utillinuxCurses
     vim
     vlc
+    vue
     w3m
     weechat
     wget
     wgetpaste
     wireshark
+    wpa_supplicant_gui
     xclip
     xfontsel
     xlibs.xmessage  # xmonad help
+    xorriso
     xsane
     youtube-dl
     z3
