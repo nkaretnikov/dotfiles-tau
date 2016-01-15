@@ -155,6 +155,12 @@
 
   programs.bash.enableCompletion = true;
 
+  programs.ssh.extraConfig =
+    # Fix for OpenSSH client bugs CVE-2016-0777 and CVE-2016-0778.
+    ''
+    UseRoaming no
+    '';
+
   # Define a user account. Don't forget to set a password with ‘passwd’.
   users.extraUsers.guest = {
     name = "nikita";
