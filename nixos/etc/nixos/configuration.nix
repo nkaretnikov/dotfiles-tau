@@ -261,6 +261,7 @@
     mplayer
     mtools
     mutt
+    nasm
     ncurses
     nix-repl
     nodejs
