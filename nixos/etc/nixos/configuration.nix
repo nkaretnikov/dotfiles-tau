@@ -180,6 +180,7 @@
       enablePepperFlash = true; # Chromium's non-NSAPI alternative to Adobe Flash
       enablePepperPDF = true;
     };
+    virtualbox.enableExtensionPack = true;
   };
 
   # List packages installed in system profile. To search by name, run:
