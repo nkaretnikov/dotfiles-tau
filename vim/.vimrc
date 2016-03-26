@@ -55,7 +55,8 @@ set wrap
 set textwidth=80
 
 " Leader.
-let mapleader = "\<Space>"
+let mapleader      = ","  " Coq
+let maplocalleader = ","  " Agda
 
 " Coquille.
 nnoremap <Leader>n :CoqNext<return>
