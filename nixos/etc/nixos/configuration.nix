@@ -186,6 +186,7 @@
   # List packages installed in system profile. To search by name, run:
   # $ nix-env -qaP | grep wget
   environment.systemPackages = with pkgs; [
+    AgdaStdlib
     acpi
     androidsdk_4_4
     ant
@@ -234,6 +235,7 @@
     gnupg
     gnutls
     grub2
+    haskellPackages.Agda
     haskellPackages.alex
     haskellPackages.cabal2nix
     haskellPackages.cabal-install
