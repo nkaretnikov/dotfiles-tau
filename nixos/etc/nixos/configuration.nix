@@ -200,7 +200,9 @@
     chromium
     clang_35
     coq
+    cryptol
     ctags
+    cvc4
     darcs
     debootstrap
     dejavu_fonts
