@@ -22,3 +22,5 @@ zle -N zle-keymap-select
 export EDITOR=vim
 export C_INCLUDE_PATH=/home/nikita/.nix-profile/include
 export LIBRARY_PATH=/home/nikita/.nix-profile/lib
+
+alias git-current='git branch | grep \* && git rev-parse HEAD'
