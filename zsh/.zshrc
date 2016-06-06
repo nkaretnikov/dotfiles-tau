@@ -24,3 +24,4 @@ export C_INCLUDE_PATH=/home/nikita/.nix-profile/include
 export LIBRARY_PATH=/home/nikita/.nix-profile/lib
 
 alias git-current='git branch | grep \* && git rev-parse HEAD'
+alias hstags='hasktags -c -L -S -R -a'
