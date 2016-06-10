@@ -25,3 +25,7 @@ export LIBRARY_PATH=/home/nikita/.nix-profile/lib
 
 alias git-current='git branch | grep \* && git rev-parse HEAD'
 alias hstags='hasktags -c -L -S -R -a'
+# From http://dev.stephendiehl.com/hask/
+alias ghci-core="ghci -ddump-simpl -dsuppress-idinfo \
+  -dsuppress-coercions -dsuppress-type-applications \
+  -dsuppress-uniques -dsuppress-module-prefixes"
